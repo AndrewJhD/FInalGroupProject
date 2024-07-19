@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.auth-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.login-box, .sign-up-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.login-box input, .sign-up-box input {
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.login-box button, .sign-up-box button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  background-color: #f1f1f1;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.toggle-link {
+  color: #61dafb;
+  cursor: pointer;
+}
